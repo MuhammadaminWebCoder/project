@@ -1,0 +1,340 @@
+/* navbar componnet open */
+.container-fluid{
+      padding: 0 !important;
+}
+.dropdown-menu{
+      margin: 0 !important;
+      top: 0 !important;
+      width: 10px !important;
+}
+.btn-sm{
+      outline: 0 !important;
+}
+.navbar-link{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 38%;
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 50px;
+}
+.navbar-link a{
+      text-decoration: none;
+      color: black;
+}
+.navbar-translate{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38%;
+}
+.navbar{
+      height: 80px;
+}
+/* navbar componnet close */
+
+/* content componnet open */
+.Content{
+      width: 100%;
+      background-color: blue;
+}
+.hiden{
+      width: 1400px;
+      margin: auto;
+      overflow: hidden;
+}
+.contentCenter{
+      padding:8% 0;
+}
+.display-6{
+      font-weight: 500;
+      text-align: center;
+      color: white;
+}
+.contentCenter .text{
+      font-size: 15px;
+      width: 39%;
+      text-align: center;
+      display: block;
+      margin:10px auto 30px;
+      font-weight: 400;
+      color: white;
+}
+.contentCenter .search{
+      align-items: center;
+      background-color: white;
+      width: 800px;
+      margin: auto;
+      border-radius: 19px;
+      color: rgb(149, 148, 148);
+}
+.contentCenter .search input{
+      padding-left:10px ;
+      border-right: 1px solid;
+      outline: 0;
+      width: 100%;
+}
+.contentCenter .search span{
+      font-size: 14px;
+      margin-right: 10px;
+}
+.contentInter{
+      width: 500000px;
+      margin-bottom: 40px;
+      animation: move-right 8s linear infinite;
+}
+.item{
+      display: flex;
+}
+.item div{
+      width: fit-content;
+      display: flex;
+      padding: 11px 30px;
+      margin: 12px;
+      border: 1px solid white;
+      color: white !important;
+}
+
+.contentInter .item div{
+      border-radius: 12px;
+      font-size: 14px;
+      
+}
+@keyframes move-right {
+      0% {
+       margin-left: -13px;
+      }
+      100% {
+       margin-left: -1380px;
+      }
+      0% {
+       margin-left: -600px;
+      }
+}
+.fw-400{
+      font-weight: 600;
+}
+/* content componnet close */
+
+/* help componnet open */
+.platIcon{
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.span{
+      color: gray;
+}
+.aboImage{
+      position: relative;
+      height: 400px;
+      background-image: url(Rectangle\ 10054\ \(1\).png)
+}
+.aboImage img{
+      position: absolute;
+      bottom: -40px;
+      left: -40px;
+}
+.platformHelp{
+}
+/* help componnet close */
+/* platform box componnet open */
+.platBox{
+      box-sizing: border-box;
+      Left:388px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px;
+      width: 364px;
+      height: 268px;
+      border: 1px solid #E9E9EB;
+      border-radius: 24px;
+}
+/* platform box componnet close */
+
+/* logIn box componnet open */
+.LogIn{
+      display: flex;
+      align-items: center;
+}
+.signIn{
+      width: 50%;
+}
+.LogIn .image{
+      background-image: url(./Rectangle\ 2\ \(1\).png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50%;
+      height: 100vh;
+}
+
+/* LogIn box componnet close */
+
+/* platforms box componnet open */
+.row .col-3 {
+      border-radius: 14px;
+}
+.col-box{
+      width: 55px;
+      height: 55px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.col-box .icon{
+      width: 20px;
+      height: 20px;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: center;
+}
+/* platforms box componnet close */
+
+/* fiendJob componnet open */
+.FiendJob .image{
+      width: 22px;
+      right: 13%;
+      bottom: 60%;
+}
+.col-2_5{
+      border-radius: 14px;
+      height: fit-content;
+      background-color: white;
+}
+.FiendJob .row{
+      background-repeat: no-repeat;
+      background-position: left;
+      background-image: url(./Vector\ 1.svg);
+      padding:0 200px;
+}
+.col-2_5:nth-child(even){
+      margin-top: 80px;
+}
+/* fiendJob componnet close */
+
+/* company componnet open */
+.company .row{
+      padding: 0 160px;
+}
+/* company componnet close */
+
+/* contactHelp componnet open */
+.contactHelp{
+      display: flex;
+      padding:0 170px;
+}
+.contactHelp .contacts{
+      width: 50%;
+
+}
+.d-longer{
+      display: flex;
+      align-items: center;
+      width: 370px;
+}
+.br-12{
+      border-radius: 12px;
+}
+.br-19{
+      border-radius: 19px;
+}
+.contactHelp .helps{
+      width: 50%;
+      padding:0 70px;
+}
+.contactHelp .helps textarea{
+      height: 185px;
+}
+/* contactHelp componnet close */
+/* footer componnet open */
+
+.foter{
+      background-color: #2A2941;
+}
+.footerlink{
+      color: white;
+      background-color: #1E1D36;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+ul li {
+      list-style-type: none;
+      padding: 5px 0;
+}
+ul li a{
+      text-decoration: none;
+      color: rgb(211, 211, 211);
+}
+.footerlink .icon i{
+      width: 45px;
+      height: 45px;
+      background-color: #2A2941;
+      color: #5361E4;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+}
+/* footer componnet close */
+/* epam open */
+.epContent{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      background-color: #5361E4;
+      color: white;
+      align-items: center;
+}
+.p-170{
+      padding:0 170px;
+}
+.col-36{
+      width: 336px;
+}
+.information .filter input{
+      padding: 14px;
+      margin:10px 0;
+}
+.avatar{
+      width: 50px;
+      height: 50px;
+}
+/* epam close */
+/* epam profile open */
+.prAvatar{
+      width: 70px;
+      height: 70px;
+      background-color: blue;
+      border-radius: 50px;
+}
+.fs-10{
+      font-size: 7px;
+}
+.fs-19{
+      font-size: 17px;
+}
+.talab p{
+      width: fit-content;
+      height: fit-content;
+      padding:6px 16px;
+      border-radius: 10px;
+      border: 1px solid;
+}
+/* epam profile close */
+/* map open */
+.map{
+      background-image: url('');
+}
+.map-card .right a{
+      text-decoration: none;
+}
+/* map close */
