@@ -12,6 +12,7 @@
                   </section>
                   <section>
                         <platformBox/>
+                        <router-link to="/map">dddddddddddddddddddddddddddddddddddddd</router-link>
                   </section>
                   <section>
                         <count/>
